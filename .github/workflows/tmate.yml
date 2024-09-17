@@ -1,0 +1,23 @@
+name: Run Shell Script with tmate for 24 Hours
+
+on:
+  push:
+    branches:
+      - main  # Adjust to your default branch
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest  # You can choose other runners as needed
+
+    timeout-minutes: 1440  # Set timeout for 24 hours (1440 minutes)
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up environment
+        run: |
+          chmod +x ./tmate.sh  # Make the script executable
+
+      - name: Run shell script
+        run: ./tmate.sh
