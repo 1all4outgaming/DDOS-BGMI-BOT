@@ -1,0 +1,41 @@
+name: Run Python Script
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:  # Allows manual triggering of the workflow
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360  # Set timeout to 6 hours (360 minutes)
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3  # Use the latest version of checkout
+
+      - name: Set up Python
+        uses: actions/setup-python@v4  # Use the latest version of setup-python
+        with:
+          python-version: '3.x'  # Specify the Python version you want
+
+      - name: Install dependencies
+        run: |
+          echo "Installing dependencies..."
+          python -m pip install --upgrade pip
+          python -m pip install pyTelegramBotAPI  # Explicitly install telebot
+          if [ -f requirements.txt ]; then
+            python -m pip install -r requirements.txt
+          else
+            echo "No requirements.txt file found. Skipping additional dependency installation."
+          fi
+
+      - name: Run main.py
+        run: |
+          if [ -f main.py ]; then
+            echo "Running main.py..."
+            python main.py
+          else
+            echo "Error: main.py does not exist."
+          fi
