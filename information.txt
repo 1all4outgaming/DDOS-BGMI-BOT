@@ -1,0 +1,17 @@
+Read Carefully
+
+Information Show You all Information About Ddos file and what is work
+
+1 : dev.sh
+(this dev.sh file create a devcontainer in your githubcodespace)
+
+2 : install.sh
+(this file run any python file)
+
+3 : main.py
+(this is main file of python that freeze the server of bgmi)
+
+4 : requirements.txt
+(this is a requirements file that install all requirements on your githubcodespace to run main.py file)
+
+

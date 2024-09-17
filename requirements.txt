@@ -1,0 +1,4 @@
+pyTelegramBotAPI
+requests
+psutil
+

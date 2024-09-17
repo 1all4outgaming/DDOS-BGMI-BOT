@@ -1,0 +1,12 @@
+Commands list
+
+chmod +x *
+=
+sudo apt update && sudo apt upgrade
+=
+pip install telebot
+=
+python main.py
+=
+
+This all simple commands for new user
