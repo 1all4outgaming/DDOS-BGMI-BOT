@@ -2,7 +2,7 @@
 ```markdown
 # 🚀 Telegram Bot 1
 
-Welcome to **Telegram Bot 1**! This is a simple bot built using Python and the Telebot library, designed to enhance your Telegram experience.
+Welcome to BGMI_DDOS telegram_bot This is a advanced bot built using Python and the Telebot library, designed to enhance your Telegram experience.
 
 ---
 
