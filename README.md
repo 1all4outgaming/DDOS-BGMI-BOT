@@ -1,9 +1,11 @@
-Got it! Here’s a revised version of the `README.md` that includes the exact commands you specified, formatted nicely:
+Sure! Here’s an improved `README.md` that includes your contact information and an image placeholder. You can replace the image URL with one of your choice.
 
 ```markdown
 # 🚀 Telegram Bot 1
 
 Welcome to **Telegram Bot 1**! This is a simple bot built using Python and the Telebot library, designed to enhance your Telegram experience.
+
+![Telegram Bot](https://via.placeholder.com/600x200.png?text=Telegram+Bot+1) <!-- Replace this URL with your desired image -->
 
 ---
 
@@ -66,11 +68,14 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## 📞 Contact
 
-If you have any questions or feedback, reach out via GitHub.
+If you have any questions or feedback, reach out via:
+
+- Telegram: [@all4outgaming1](https://t.me/all4outgaming1)
+- Instagram: [@all4outgaming](https://www.instagram.com/all4outgaming)
 
 ---
 
 Happy coding! 🎉
 ```
 
-This version keeps your commands clear and straightforward. Let me know if you need any further adjustments!
+This version includes your contact information and a placeholder for an image. Just replace the image URL with one that suits your project! Let me know if you need anything else!
