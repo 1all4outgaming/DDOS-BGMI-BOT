@@ -9,4 +9,3 @@ pip install telebot
 python main.py
 =
 
-This all simple commands for new user
